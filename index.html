@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<title> Forms</title>
+</head>
+
+<body>
+    <h2>SignUp Form</h2>
+
+    <form>
+        <!-- inputs for forms -->
+        <div>
+            <label for ="username" >
+                Username:
+            </label>
+            <input type="text" id="username" placeholder="username" required/>
+        </div>
+        <br/>
+        <!-- email -->
+        <div>
+            <label for ="email" >
+                Email:
+            </label>
+            <input type="email" id="email" placeholder="example@gmail.com"/>
+        </div>
+
+        <br/>
+        <!-- password -->
+        <div>
+            <label for ="password" >
+                Paasword:
+            </label>
+            <input type="password" id="password" placeholder="enter your password"/>
+        </div>
+
+        <br/>
+
+
+        <!-- select your gender  -->
+        <div>
+            <input type ="radio" name=""gender value="male"/> Male
+            <input type ="radio" name=""gender value="Female"/> Female
+        </div>
+        <br/>
+
+        <!-- security question -->
+        <div>
+            <label for="Security Question"> Security Questions: </label>
+            <select name = "question" id="question">
+                <option value="q1"> What is the name of your ex
+
+                </option>
+                <option value="q1"> What is your phone number
+
+                </option>
+                <option value="q1"> What is the name of your dog?
+
+                </option>
+
+            </select>
+            <br/>
+            <label for = "answer"> Type your Answer</label>
+
+            <input type="text" id="answer" />
+        </div>
+
+        <br/>
+
+        <!-- textarea -->
+        <div>
+            <label for="Your Bio">Your Bio</label><br/>
+            <textarea name="bio" id ="bio" height="30" width="10" placeholder="your bio.."></textarea>
+        </div>
+
+        <input type="submit" value ="submit" />
+    </form>
+
+</body>
+
+</html>
